@@ -1,26 +1,26 @@
 #include<stdio.h>
 int main()
-// {
-//     char arr[5]={'A','B','C','D','E'};
-//     printf("%c \n", arr[3]);
-// }
-// {
-//     int arr[5]={1,2,3,4,5};
-//     printf("%d \n", arr[3]);
-// }
-// 
 {
-    int arr[5];//={'A','B','C','D','E'};
-    printf("Enter elements: ");
-    for(int i=0;i<5;i++)
+    int size;
+    printf("Enter the size of an array: ");
+    scanf("%d",&size);
+    int arr[size];
+    printf("Enter the array elements: ");
+    for(int i=0;i<size;i++)
     {
         scanf(" %d",&arr[i]);
     }
-    printf("Elements entered are:[");
-    for(int i=4;i>=0;i--)
+    printf("Original array: ");
+    for(int i=0;i<size;i++)
+    {
+        printf("%d",arr[i]);
+    }
+
+    printf("reversed array: ");
+    for(int i=size-1;i>=0;i--)
     {
         printf("%d ", arr[i]);
     }
-    printf("]\n");
+    printf("\n");
 
 }
