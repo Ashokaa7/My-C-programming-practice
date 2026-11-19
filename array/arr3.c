@@ -27,7 +27,7 @@ int main()
 
     }
     else{
-        printf("Array is Not palindrome\n");
+        printf("Array is Not Palindrome\n");
     }
 
 }
