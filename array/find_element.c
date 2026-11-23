@@ -17,18 +17,16 @@ int main()
     for(int i=0;i<size;i++)
     {
         if(num==arr[i])
-        {
-            
+        { 
             flag=1;
         }
-        
     }
     if(flag==1)
     {
-        printf("Element Found");
+        printf("Element Found\n");
     }
     else
     {
-        printf("Not Found");
+        printf("Not Found\n");
     }
 }
