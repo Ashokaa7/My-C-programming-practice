@@ -38,6 +38,5 @@ int main()
         printf("%d ",even_arr[i]);
     }
     printf("\n");
-    return 0;
-    
+    return 0;    
 }
