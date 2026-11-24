@@ -1,3 +1,4 @@
+//Program to search element in an array and its number os occurance
 #include<stdio.h>
 int main()
 {
@@ -18,7 +19,6 @@ for(i=0;i<size;i++)
     {
         count++;
     }
-
 }
 printf("Element %d found %d  times\n",num,count);
 }
