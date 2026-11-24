@@ -1,3 +1,4 @@
+//Program to find elements is present in an array or not
 #include<stdio.h>
 int main()
 {
