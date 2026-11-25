@@ -1,3 +1,4 @@
+//size of datatype or variable
 #include<stdio.h>
 int main()
 {
