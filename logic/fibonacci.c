@@ -1,3 +1,4 @@
+//Fibonacci series upto the limit
 #include<stdio.h>
 int main()
 {
@@ -9,7 +10,6 @@ int main()
         printf("Invalid input");//if user input is smaller than 0 or negative it will show invalid input
         return 0;
     }
-    
     while(a<=num)
     {
         printf("%d ",a);
