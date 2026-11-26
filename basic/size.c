@@ -13,6 +13,5 @@ int main()
     printf("Size of : %lu \n", sizeof(ch));
     printf("Size of : %lu \n", sizeof(char));
     printf("Size of : %lu \n", sizeof(float));
-    printf("Size of : %lu \n", sizeof(f));
-    
+    printf("Size of : %lu \n", sizeof(f));   
 }
