@@ -2,7 +2,6 @@
 #include<stdio.h>
 int main()
 {
-    
     int num=7;
     char ch='A';
     double d=3.14;
