@@ -38,7 +38,6 @@ int main()
         ap=ap+R;
     }
     printf("\n");
-    
     //GP
     printf("GP = ");
     int gp=A;
