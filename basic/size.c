@@ -15,5 +15,4 @@ int main()
     printf("Size of : %lu \n", sizeof(char));
     printf("Size of : %lu \n", sizeof(float));
     printf("Size of : %lu \n", sizeof(f));   
- 
 }
