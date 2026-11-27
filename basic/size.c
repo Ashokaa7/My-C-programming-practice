@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    
+
     int num=7;
     char ch='A';
     double d=3.14;
@@ -15,4 +15,5 @@ int main()
     printf("Size of : %lu \n", sizeof(char));
     printf("Size of : %lu \n", sizeof(float));
     printf("Size of : %lu \n", sizeof(f));   
+    
 }
